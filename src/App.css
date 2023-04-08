@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+    .App {
+      background-image: url(/src/images/bg/bgEllipse.png),
+        url(/src/images/bg/bgEllipse2.png);
+      background-repeat: no-repeat;
+      background-color: var(--background-color);
+      background-position-x: -54px, 350px;
+      background-position-y: 520px, -253px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .App {
+      background-position-x: -180px, 120%;
+      background-position-y: 520px, -180px;
+    }
+  }
+  

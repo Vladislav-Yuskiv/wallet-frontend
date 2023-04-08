@@ -1,0 +1,45 @@
+.blurBackgroundWrapper {
+  display: flex;
+  align-items: center;
+  min-height: 95vh;
+
+  background-color: transparent;
+}
+.formWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: var(--main-background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .blurBackgroundWrapper {
+    justify-content: center;
+
+    min-height: 100%;
+    width: 100%;
+  }
+
+  .formWrapper {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-inline: 65px;
+
+    width: 540px;
+
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .blurBackgroundWrapper {
+    width: 56%;
+
+    background-color: var(--blur-backgroud-color);
+    backdrop-filter: blur(50px);
+  }
+}

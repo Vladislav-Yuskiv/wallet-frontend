@@ -1,0 +1,22 @@
+.wrap {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    height: 100%;
+    min-height: 100vh;
+    background-color: #e7eaf2;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    display: flex;
+  }
+}

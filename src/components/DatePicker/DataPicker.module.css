@@ -1,0 +1,20 @@
+input {
+  width: 280px;
+  border: none;
+  border-bottom: 2px solid #e0e0e0;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 100%;
+  color: #000000;
+  outline: 0;
+  outline-offset: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  input {
+    width: 190px;
+  }
+}

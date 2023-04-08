@@ -1,0 +1,26 @@
+:root {
+  --main-background-color: rgba(255, 255, 255, 1);
+  --main-text-color: rgba(0, 0, 0, 1);
+  --inactive-text-color: rgba(189, 189, 189, 1);
+  --accent-text-color: rgba(255, 101, 150, 1);
+  --backdrop-color: rgba(0, 0, 0, 0.25);
+  --dropdown-color: rgba(255, 255, 255, 0.7);
+  --blur-backgroud-color: rgba(255, 255, 255, 0.4);
+  --yellow-color: rgba(254, 208, 87, 1);
+  --light-pink-color: rgba(255, 216, 208, 1);
+  --pink-color: rgba(253, 148, 152, 1);
+  --violet-color: rgba(197, 186, 255, 1);
+  --blue-color: rgba(110, 120, 232, 1);
+  --dark-blue-color: rgba(74, 86, 226, 1);
+  --light-blue-color: rgba(129, 225, 255, 1);
+  --green-color: rgba(36, 204, 167, 1);
+  --dark-green-color: rgba(0, 173, 132, 1);
+  --green-shadow-color: rgba(36, 204, 167, 0.25);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-extra-color: rgba(0, 0, 0, 0.25);
+  --brown-shadow-color: rgba(255, 101, 150, 0.25);
+  --border-color: rgba(224, 224, 224, 1);
+  --background-color: rgba(231, 234, 242, 1);
+  --dashboard-underline-color: rgba(230, 220, 223, 1);
+  --spliter-shadow-color: rgba(255, 255, 255, 0.6);
+}

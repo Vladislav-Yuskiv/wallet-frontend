@@ -1,0 +1,35 @@
+.transactionDetailsMobile {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.1pt;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transactionDetailsRowMobile {
+  align-items: center;
+  min-height: 46px;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdf;
+}
+.transactionDetailsRowLabelMobile {
+  margin-left: 20px;
+  margin-right: 5px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.transactionDetailsRowValueMobile {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}

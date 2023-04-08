@@ -1,0 +1,28 @@
+.blur {
+  width: 100%;
+
+  backdrop-filter: blur(10px);
+  background-color: var(--blur-backgroud-color);
+}
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 0;
+  }
+}

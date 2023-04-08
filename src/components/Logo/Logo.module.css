@@ -1,0 +1,37 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+.logoText {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.logoImg {
+  display: block;
+  margin-right: 16px;
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .logoWrapper {
+    width: 181px;
+  }
+  .logoText {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .logoImg {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+  }
+}

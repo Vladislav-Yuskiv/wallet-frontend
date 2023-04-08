@@ -1,0 +1,30 @@
+.authMediaWrapper {
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 540px;
+}
+
+.authMediaImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text {
+  font-size: 30px;
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1280px) {
+  .authMediaWrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    width: 44%;
+  }
+}

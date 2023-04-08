@@ -1,0 +1,13 @@
+.bgImage {
+  background-image: url('../../images/login.svg');
+
+  width: 260px;
+  height: 250px;
+}
+
+@media screen and (min-width: 1280px) {
+  .bgImage {
+    width: 436px;
+    height: 420px;
+  }
+}

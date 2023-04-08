@@ -1,0 +1,15 @@
+.bgImage {
+  width: 274px;
+  height: 250px;
+
+  background-image: url('../../images/register.svg');
+}
+
+@media screen and (min-width: 1280px) {
+  .bgImage {
+    width: 452px;
+    height: 413px;
+
+    background-size: contain;
+  }
+}

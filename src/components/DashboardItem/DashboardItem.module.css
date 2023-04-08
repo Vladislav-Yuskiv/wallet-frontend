@@ -1,0 +1,49 @@
+.transactionRowWrapper {
+  font-size: 16px;
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+}
+.transactionRow {
+  display: flex;
+}
+.transactionRowWrapper:not(:first-child) {
+  border-top: solid 1px var(--dashboard-underline-color);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.6);
+}
+
+.transactionCellDate {
+  margin-left: 20px;
+
+  text-align: left;
+  width: 60px;
+  align-self: center;
+}
+.transactionCellType {
+  width: 80px;
+  text-align: center;
+  align-self: center;
+}
+.transactionCellCategory {
+  width: 140px;
+  padding: 0 15px;
+  text-align: left;
+  align-self: center;
+}
+.transactionCellComment {
+  width: 160px;
+  text-align: left;
+  padding: 0 15px;
+  align-self: center;
+}
+.transactionCellSum {
+  text-align: right;
+  width: 80px;
+  font-weight: 700;
+  align-self: center;
+}
+.transactionCellBalance {
+  text-align: right;
+  width: 125px;
+  align-self: center;
+}

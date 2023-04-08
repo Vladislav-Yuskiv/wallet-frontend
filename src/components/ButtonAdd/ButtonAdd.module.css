@@ -1,0 +1,71 @@
+.button {
+  position: fixed;
+  bottom: 65px;
+  left: 80%;
+  cursor: pointer;
+
+  width: 44px;
+  height: 44px;
+  color: transparent;
+  background: url("../../icons/plus.svg") no-repeat;
+  background-color: #24cca7;
+  background-size: inherit;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(36, 204, 167, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(36, 204, 167, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(36, 204, 167, 0.25);
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: #2bdeb6;
+  transition: background-color 1s cubic-bezier(0.165, 0.84, 0.44, 1),
+    box-shadow 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media screen and (min-width: 425px) {
+  .button {
+    left: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    left: 89%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    left: 79%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .button {
+    left: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .button {
+    left: 85%;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .button {
+    left: 80%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .button {
+    left: 77%;
+  }
+}
